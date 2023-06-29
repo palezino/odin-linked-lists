@@ -142,7 +142,6 @@ class LinkedList {
         let count = this.listSize;
         let string = "";
         while(count) {
-            // console.log(current.value);
             string += `(${current.value}) -> `;
             current = current.nextNode;
             count--;
